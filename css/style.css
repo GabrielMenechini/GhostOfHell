@@ -1,0 +1,78 @@
+/* css reset */
+* {
+    /* retirar a margem externa */
+    margin: 0;
+    /* retirar a margem interna */
+    padding: 0;
+}
+
+/* formatar o corpo */
+body {
+    font-family: Arial, Verdana;
+    font-size: 16px;
+}
+
+h2 {
+    /* centralizar */
+    text-align: center;
+    /* maiúsculo */
+    text-transform: uppercase;
+    /* tamanho da fonte */
+    font-size: 32px;
+}
+
+header {
+    /* cor de fundo */
+    background-color: #FFF;
+    /* largura */
+    width: 100%;
+    /* sombra */
+    box-shadow: 0 0 10px #CCC;
+}
+
+/* formatar a class chamada centro */
+.centro {
+    /* tamanho - largura */
+    width: 1000px;
+    /* centralizar */
+    margin: auto;
+}
+
+/* configuras o id mentores */
+#mentores, #contato {
+    background-color: #F1F1F1;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.grid {
+    /* aplicar a grid */
+    display: grid;
+    /* configuro as colunas */
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid .coluna {
+    /* sombra */
+    box-shadow: 0 0 10px #CCC;
+    /* borda arredondada */
+    border-radius: 10px;
+    /* margem externa */
+    margin: 10px;
+}
+
+.grid .coluna img {
+    /* largura */
+    width: 100%;
+    /* arredondar cantos */
+    border-radius: 10px 10px 0 0 ;
+}
+
+.grid .coluna p, #mentores p {
+    margin: 15px;
+    /* alinhar ao centro */
+    text-align: center;
+}
