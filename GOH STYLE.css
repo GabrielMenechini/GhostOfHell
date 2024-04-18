@@ -28,20 +28,22 @@ body {
         background-color: black;
         box-shadow: 0px 30px 30px #000000;
         box-sizing: border-box;
+        padding: 5px;
     }
     header nav {
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-right: 68px;
     }
     header nav a {
         text-decoration: none;
-        margin: 15px;
+        margin: 15px;      
     }
     header nav a:hover {
         color: rgb(67, 67, 67);
     }
     section {
         text-align: center;
-        width: 100%;   
+        width: 100%;
     }
     .img100 {
         width: 100%;
@@ -57,7 +59,6 @@ body {
         text-decoration: none;
         font-size: 25px;
         text-align: center;
-    
     }
     div2{
         font-size: 20;
@@ -73,3 +74,46 @@ body {
     div3{
         text-align: center;
     }
+
+    .TelaInicio {
+        width: 50%; /*largura*/
+        background-color: black;
+        box-shadow: 0px 30px 30px #000000;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 15px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .GOHFOGO {
+        width: 50%; /*largura*/
+        background-color: black;
+        box-shadow: 0px 30px 30px #000000;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 15px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .GOHEXPLOSAO {
+        width: 50%; /*largura*/
+        background-color: black;
+        box-shadow: 0px 30px 30px #000000;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 15px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .GOHINICIAL {
+        width: 50%; /*largura*/
+        background-color: black;
+        box-shadow: 0px 30px 30px #000000;
+        box-sizing: border-box;
+        padding: 5px;
+        margin: 15px;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    
